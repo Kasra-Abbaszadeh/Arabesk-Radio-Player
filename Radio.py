@@ -8,7 +8,7 @@ class RadioApp(QWidget):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("Arabesk Radyo")
+        self.setWindowTitle("Arabesk Radio Player")
         self.setWindowIcon(QIcon("src/icon.png"))
 
         self.setGeometry(200, 200, 500, 500)  
